@@ -2,7 +2,7 @@
 
 An **end-to-end Agentic Financial Analyst** that uses **LangChain + RAG** to analyze **PDF financial reports** and **CSV revenue data**, compute trends using **pandas**, and answer **natural‑language questions** via an **LLM agent**.
 
-Built to be **resume‑ready**, demo‑friendly, and easy to extend using **Python, SQL-style analytics, and modern LLM tooling**.
+Built to be demo‑friendly, and easy to extend using **Python, SQL-style analytics, and modern LLM tooling**.
 
 ---
 
@@ -50,43 +50,7 @@ financial-analyst-agent/
 * **PyMuPDF** – fast PDF text extraction
 * **Pandas** – revenue & trend analysis
 * **Streamlit** – UI
-
 ---
-
-## 📦 Installation
-
-```bash
-# Clone repo
-git clone https://github.com/your-username/financial-analyst-agent.git
-cd financial-analyst-agent
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
----
-
-## 🔐 Environment Setup
-
-Create a `.env` file:
-
-```env
-GROQ_API_KEY=your_groq_api_key_here
-```
-
-Get a free key from 👉 [https://console.groq.com](https://console.groq.com)
-
----
-
-## ▶️ Run the App
-
-```bash
-streamlit run app.py
-```
 
 Upload:
 
@@ -94,8 +58,6 @@ Upload:
 * Optional **CSV** with revenue data
 
 Then ask questions in plain English.
-
----
 
 ## 🧠 How It Works (Architecture)
 
